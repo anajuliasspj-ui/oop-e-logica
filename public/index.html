@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyNode Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo-elegante">SkyNode Solutions</h1>
+        <p>Desenvolvimento de Sistemas - 3E</p>
+        <p><em>Monitor de Hardware</em></p>
+    </header>
+
+    <main id="dashboard">
+        <section class="monitoramento">
+            <div class="grid-pastel">
+                <div id="bloco-cpu" class="bloco-pastel azul estrela-esquerda">
+                    <span class="label">CPU</span>
+                    <div class="valor"><span id="cpu-valor">0</span>%</div>
+                    <div class="barra-fundo"><div id="cpu-barra" class="barra-cheia"></div></div>
+                </div>
+
+                <div id="bloco-ram" class="bloco-pastel amarelo snoopy-meio">
+                    <span class="label">MEMÓRIA RAM</span>
+                    <div class="valor"><span id="ram-valor">0</span>%</div>
+                    <div class="barra-fundo"><div id="ram-barra" class="barra-cheia"></div></div>
+                </div>
+
+                <div id="bloco-temp" class="bloco-pastel azul estrela-direita">
+                    <span class="label">TEMPERATURA</span>
+                    <div class="valor"><span id="temp-valor">0</span>°C</div>
+                    <div class="barra-fundo"><div id="temp-barra" class="barra-cheia"></div></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 SkyNode Solutions - Todos os direitos reservados</p>
+        <p>Contato: anajuliasspj@gmail.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
